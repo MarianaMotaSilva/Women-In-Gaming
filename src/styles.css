@@ -1,34 +1,28 @@
 body {
-  background-color: #12101d;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   font-family: "Plus Jakarta Sans", sans-serif;
   margin: 0;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.338)),
-    url("../images/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.654), rgba(0, 0, 0, 0.154)),
+    url("../images/hero.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: white;
-  padding: 200px 0;
+  padding: 218px 0;
   text-align: center;
 }
-header p {
-  font-size: 24px;
-  font-weight: 800;
-  letter-spacing: 5px;
-  line-height: 30.24px;
-  margin: 0 0 34px;
-}
+
 header h1 {
-  font-weight: 700;
-  font-size: 128px;
+  font-weight: 900;
+  font-size: 120px;
   margin: 0 0 16px;
 }
 header h2 {
-  font-weight: 500;
-  font-size: 40px;
+  font-weight: 600;
+  font-size: 35px;
   line-height: 1.5;
   margin: 0 0 64px;
 }
@@ -45,9 +39,9 @@ main h3 {
   padding-left: 16px;
 }
 main h2 {
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 1.5;
+  font-size: 35px;
+  font-weight: 590;
+  line-height: 1.2;
   margin: 0;
 }
 main h4 {
@@ -63,36 +57,31 @@ main h5 {
   margin: 0;
 }
 main p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 23px;
   margin-bottom: 32px;
   opacity: 0.7;
 }
 footer {
-  background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
-    ),
-    url("../images/footer-image.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
+  background: linear-gradient(rgba(39, 32, 68, 0.819), rgb(39, 32, 68));
 }
 footer h3 {
   font-family: "Playfair Display", serif;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   line-height: 1.5;
+  color: white;
 }
 footer p {
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 1.5;
-  margin-right: 20px;
-  opacity: 0.9;
+  line-height: 1.8;
+  margin-right: 10px;
+  opacity: 0.8;
+  color: white;
+  text-align: justify;
 }
 footer ul {
   padding: 0;
@@ -105,7 +94,7 @@ footer li {
 footer a {
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
@@ -116,7 +105,7 @@ footer a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-decoration: none;
   color: white;
   background-color: #fb5c8d;
@@ -142,19 +131,24 @@ footer a {
   object-fit: cover;
   width: 100%;
 }
-.movies-heading {
+.topics-heading {
   margin: 0 auto;
-  width: 200px;
+  width: 250px;
+  line-height: 1.5;
 }
 .profile-img {
-  border-radius: 20px;
-  display: block;
-  margin: 0 auto;
-  max-width: 500px;
+  border-radius: 18px;
+  display: flex;
+  margin: 100 auto;
+  max-width: 410px;
   width: 100%;
+  opacity: 0.9;
+  margin-right: 450px;
 }
 .text-center {
   text-align: center;
+  color: white;
+  line-height: 1.8;
 }
 .grid {
   display: grid;
@@ -163,7 +157,7 @@ footer a {
   grid-template-columns: 1fr 1fr;
 }
 .grid-3-columns {
-  grid-gap: 30px;
+  grid-gap: 40px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .card {
@@ -193,7 +187,7 @@ footer a {
 .more-movies-grid {
   margin-top: 30px;
 }
-.tiffany-links {
+.mariana-links {
   font-size: 14px;
   color: #fb5c8d;
   font-family: "Poppins", sans-serif;
@@ -261,8 +255,8 @@ footer a {
   .why-content {
     margin-top: 20px;
   }
-  .movies-heading {
-    width: 40px;
+  .topics-heading {
+    width: 45px;
   }
   .card-body {
     padding: 10px 15px;
