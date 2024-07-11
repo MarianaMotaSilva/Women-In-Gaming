@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.654), rgba(0, 0, 0, 0.154)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.168), rgba(0, 0, 0, 0.575)),
     url("../images/hero.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -22,9 +22,10 @@ header h1 {
 }
 header h2 {
   font-weight: 600;
-  font-size: 35px;
+  font-size: 33px;
   line-height: 1.5;
   margin: 0 0 64px;
+  background-color: #00000037;
 }
 section {
   padding: 100px 200px;
@@ -39,13 +40,13 @@ main h3 {
   padding-left: 16px;
 }
 main h2 {
-  font-size: 35px;
-  font-weight: 590;
+  font-size: 33px;
+  font-weight: 600;
   line-height: 1.2;
   margin: 0;
 }
 main h4 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   text-align: left;
   margin: 0;
@@ -64,7 +65,7 @@ main p {
   opacity: 0.7;
 }
 footer {
-  background: linear-gradient(rgba(39, 32, 68, 0.819), rgb(39, 32, 68));
+  background: linear-gradient(#1e1b2c, rgba(39, 32, 68, 0.953));
 }
 footer h3 {
   font-family: "Playfair Display", serif;
@@ -175,6 +176,8 @@ footer a {
 }
 .card-body p {
   margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.6;
 }
 .watch-btn {
   display: block;
